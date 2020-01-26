@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="lab1.css" rel="stylesheet" type="text/css">
+        <meta charset="UTF-8">
+        <title>Assignment 2</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <a class="logo" href="#">Raymond Duong</a>
+            <ul class="nav">
+                <li class="navi"><a class="active" href="#home">Home</a></li>
+                <li class="navi"><a href="#aboutme">About Me</a></li>
+                <li class="navi"><a href="#courses">Courses</a></li>
+                <li class="navi"><a href="#workexperience">Work Experience</a></li>
+                <li class="navi"><a href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
+        <div class="banner-area" id="home">
+            <div class="caption">
+                <span class="border">WELCOME</span>
+            </div>
+        </div>
+        <div class="about-area" id="aboutme">
+            <div class="text-part">
+                <h1>About Me</h1>
+                <img alt="Raymond" src="photos/Raymond.jpg">
+                <ol>
+                    <li>I was born in Montreal and I have been raised in Calgary since the age of 5</li>
+                    <img alt="Montreal" src="photos/Montreal.jpg">
+                    <li>I have a cat named Athena</li>
+                    <img alt="Athena" src="photos/Athena.png">
+                    <li>My favorite food is broth-based noodles, such as pho, ramen, and udon</li>
+                    <img alt="Pho" src="photos/pho.jpg">
+                </ol>
+            </div>
+            <div class="courses-area" id="courses">
+                <h1>Courses</h1>
+                <table>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>Object-Oriented Programming</td>
+                        <td>This course includes an extensive look into the world of object-oriented
+                            programming, which
+                            requires CMPP269 to be completed
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Business Dynamics</td>
+                        <td>Gives students an understanding on how the dynamics of business works, useful for
+                            understanding after graduation.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Website Development Fundamentals</td>
+                        <td>A how-to course on the intricacies of making websites.</td>
+                    </tr>
+                    <tr>
+                        <td>Database Design</td>
+                        <td>A course for those who are interested with understanding and utilizing databases.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Interface Design</td>
+                        <td>An in-depth look into the world of UX and working with designers.</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="work-area" id="workexperience">
+            <div class="text-part">
+                <h1>Work Experience</h1>
+                <p>
+                <h3>2018 July - Now &emsp; Cast Member, Landmark Cinemas Calgary, Alberta</h3>
+                <li>Ensured that all products and machines meet the required health and safety</li>
+                <li>Maintained equipment and tools, ensuring a clean work environment</li>
+                <li>Effective communication and conflict resolution skills with customers and co-workers</li>
+                <h3>Fall 2019 &emsp; Southern Alberta Institute of Technology</h3>
+                <li>Enrolled in Information Technology, majoring in Computer Systems</li>
+                </p>
+            </div>
+        </div>
+        <div class="contact-area" id="contact">
+            <div class="text-part">
+                <h1>Contact Me</h1>
+                <div class="container">
+                    <form action="mailto:personal@sait.ca">
+                        <label for="fname">First Name</label>
+                        <input id="fname" name="firstname" placeholder="Your name..." type="text">
+
+                        <label for="lname">Last Name</label>
+                        <input id="lname" name="lastname" placeholder="Your last name..." type="text">
+
+                        <label for="subject">Message Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Subject Message"></textarea>
+
+                        <label>Type of Email</label>
+                        <select for="emailtype" id="emailtype" name="emailtype">
+                            <option value="personal">Personal</option>
+                            <option value="work">Work</option>
+                        </select>
+
+                        <label for="body">Subject</label>
+                        <textarea id="body" name="body" placeholder="Write something..."
+                                  style="height:200px"></textarea>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <br>
+        <a href="#top">Back To Top</a>
+    </body>
+</html>
